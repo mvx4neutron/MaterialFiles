@@ -23,6 +23,9 @@ class ThemeColorPreference : BaseColorPreference {
         set(value) {
             _stringValue = value
             persistString(value)
+            if (value.toInt() in ThemeColor.entries.indices) {
+                summary = ThemeColor.entries[value.toInt()].displayName
+            }
             notifyChanged()
         }
 
