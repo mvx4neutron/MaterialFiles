@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <style name="Widget.MaterialFiles.CardView.deep_neutral_dark" parent="Widget.MaterialFiles.CardView">
+        <item name="cardBackgroundColor">@color/theme_deep_neutral_dark_card</item>
+        <item name="strokeColor">@color/theme_deep_neutral_dark_divider</item>
+    </style>
+    <style name="Widget.MaterialFiles.CardView.warm_night" parent="Widget.MaterialFiles.CardView">
+        <item name="cardBackgroundColor">@color/theme_warm_night_card</item>
+        <item name="strokeColor">@color/theme_warm_night_divider</item>
+    </style>
+    <style name="Widget.MaterialFiles.CardView.muted_amber" parent="Widget.MaterialFiles.CardView">
+        <item name="cardBackgroundColor">@color/theme_muted_amber_card</item>
+        <item name="strokeColor">@color/theme_muted_amber_divider</item>
+    </style>
+    <style name="Widget.MaterialFiles.CardView.dark_terracotta" parent="Widget.MaterialFiles.CardView">
+        <item name="cardBackgroundColor">@color/theme_dark_terracotta_card</item>
+        <item name="strokeColor">@color/theme_dark_terracotta_divider</item>
+    </style>
+    <style name="Widget.MaterialFiles.CardView.soft_sepia" parent="Widget.MaterialFiles.CardView">
+        <item name="cardBackgroundColor">@color/theme_soft_sepia_card</item>
+        <item name="strokeColor">@color/theme_soft_sepia_divider</item>
+    </style>
+    <style name="Widget.MaterialFiles.CardView.soft_daylight" parent="Widget.MaterialFiles.CardView">
+        <item name="cardBackgroundColor">@color/theme_soft_daylight_card</item>
+        <item name="strokeColor">@color/theme_soft_daylight_divider</item>
+    </style>
+    <style name="Widget.MaterialFiles.CardView.amoled_minimal" parent="Widget.MaterialFiles.CardView">
+        <item name="cardBackgroundColor">@color/theme_amoled_minimal_card</item>
+        <item name="strokeColor">@color/theme_amoled_minimal_divider</item>
+    </style>
+
+    <style name="Theme.MaterialFiles.deep_neutral_dark" parent="Theme.MaterialFiles">
+        <item name="colorPrimary">@color/theme_deep_neutral_dark_accent</item>
+        <item name="colorPrimaryVariant">@color/theme_deep_neutral_dark_accent2</item>
+        <item name="colorSecondary">@color/theme_deep_neutral_dark_accent2</item>
+        <item name="colorSurface">@color/theme_deep_neutral_dark_surface</item>
+        <item name="colorOnSurface">@color/theme_deep_neutral_dark_primary_text</item>
+        <item name="colorError">@color/theme_deep_neutral_dark_error</item>
+        <item name="colorControlNormal">@color/theme_deep_neutral_dark_secondary_text</item>
+        <item name="colorControlActivated">@color/theme_deep_neutral_dark_accent</item>
+        <item name="android:colorBackground">@color/theme_deep_neutral_dark_background</item>
+        <item name="android:textColorPrimary">@color/theme_deep_neutral_dark_primary_text</item>
+        <item name="android:textColorSecondary">@color/theme_deep_neutral_dark_secondary_text</item>
+        <item name="materialCardViewStyle">@style/Widget.MaterialFiles.CardView.deep_neutral_dark</item>
+    </style>
+    <style name="Theme.MaterialFiles.Translucent.deep_neutral_dark" parent="Theme.MaterialFiles.Translucent">
+        <item name="colorPrimary">@color/theme_deep_neutral_dark_accent</item>
+        <item name="colorPrimaryVariant">@color/theme_deep_neutral_dark_accent2</item>
+        <item name="colorSecondary">@color/theme_deep_neutral_dark_accent2</item>
+        <item name="colorSurface">@color/theme_deep_neutral_dark_surface</item>
+        <item name="colorOnSurface">@color/theme_deep_neutral_dark_primary_text</item>
+        <item name="colorError">@color/theme_deep_neutral_dark_error</item>
+        <item name="colorControlNormal">@color/theme_deep_neutral_dark_secondary_text</item>
+        <item name="colorControlActivated">@color/theme_deep_neutral_dark_accent</item>
+        <item name="android:colorBackground">@color/theme_deep_neutral_dark_background</item>
+        <item name="android:textColorPrimary">@color/theme_deep_neutral_dark_primary_text</item>
+        <item name="android:textColorSecondary">@color/theme_deep_neutral_dark_secondary_text</item>
+        <item name="materialCardViewStyle">@style/Widget.MaterialFiles.CardView.deep_neutral_dark</item>
+    </style>
+    <style name="Theme.MaterialFiles.Immersive.deep_neutral_dark" parent="Theme.MaterialFiles.Immersive">
+        <item name="colorPrimary">@color/theme_deep_neutral_dark_accent</item>
+        <item name="colorPrimaryVariant">@color/theme_deep_neutral_dark_accent2</item>
+        <item name="colorSecondary">@color/theme_deep_neutral_dark_accent2</item>
+        <item name="colorSurface">@color/theme_deep_neutral_dark_surface</item>
+        <item name="colorOnSurface">@color/theme_deep_neutral_dark_primary_text</item>
+        <item name="colorError">@color/theme_deep_neutral_dark_error</item>
+        <item name="colorControlNormal">@color/theme_deep_neutral_dark_secondary_text</item>
+        <item name="colorControlActivated">@color/theme_deep_neutral_dark_accent</item>
+        <item name="android:colorBackground">@color/theme_deep_neutral_dark_background</item>
+        <item name="android:textColorPrimary">@color/theme_deep_neutral_dark_primary_text</item>
+        <item name="android:textColorSecondary">@color/theme_deep_neutral_dark_secondary_text</item>
+        <item name="materialCardViewStyle">@style/Widget.MaterialFiles.CardView.deep_neutral_dark</item>
+    </style>
+    <style name="Theme.MaterialFiles.deep_neutral_dark.Black" />
+    <style name="Theme.MaterialFiles.Translucent.deep_neutral_dark.Black" />
+    <style name="Theme.MaterialFiles.Immersive.deep_neutral_dark.Black" />
+
+    <style name="Theme.MaterialFiles.warm_night" parent="Theme.MaterialFiles">
+        <item name="colorPrimary">@color/theme_warm_night_accent</item>
+        <item name="colorPrimaryVariant">@color/theme_warm_night_accent2</item>
+        <item name="colorSecondary">@color/theme_warm_night_accent2</item>
+        <item name="colorSurface">@color/theme_warm_night_surface</item>
+        <item name="colorOnSurface">@color/theme_warm_night_primary_text</item>
+        <item name="colorError">@color/theme_warm_night_error</item>
+        <item name="colorControlNormal">@color/theme_warm_night_secondary_text</item>
+        <item name="colorControlActivated">@color/theme_warm_night_accent</item>
+        <item name="android:colorBackground">@color/theme_warm_night_background</item>
+        <item name="android:textColorPrimary">@color/theme_warm_night_primary_text</item>
+        <item name="android:textColorSecondary">@color/theme_warm_night_secondary_text</item>
+        <item name="materialCardViewStyle">@style/Widget.MaterialFiles.CardView.warm_night</item>
+    </style>
+    <style name="Theme.MaterialFiles.Translucent.warm_night" parent="Theme.MaterialFiles.Translucent">
+        <item name="colorPrimary">@color/theme_warm_night_accent</item>
+        <item name="colorPrimaryVariant">@color/theme_warm_night_accent2</item>
+        <item name="colorSecondary">@color/theme_warm_night_accent2</item>
+        <item name="colorSurface">@color/theme_warm_night_surface</item>
+        <item name="colorOnSurface">@color/theme_warm_night_primary_text</item>
+        <item name="colorError">@color/theme_warm_night_error</item>
+        <item name="colorControlNormal">@color/theme_warm_night_secondary_text</item>
+        <item name="colorControlActivated">@color/theme_warm_night_accent</item>
+        <item name="android:colorBackground">@color/theme_warm_night_background</item>
+        <item name="android:textColorPrimary">@color/theme_warm_night_primary_text</item>
+        <item name="android:textColorSecondary">@color/theme_warm_night_secondary_text</item>
+        <item name="materialCardViewStyle">@style/Widget.MaterialFiles.CardView.warm_night</item>
+    </style>
+    <style name="Theme.MaterialFiles.Immersive.warm_night" parent="Theme.MaterialFiles.Immersive">
+        <item name="colorPrimary">@color/theme_warm_night_accent</item>
+        <item name="colorPrimaryVariant">@color/theme_warm_night_accent2</item>
+        <item name="colorSecondary">@color/theme_warm_night_accent2</item>
+        <item name="colorSurface">@color/theme_warm_night_surface</item>
+        <item name="colorOnSurface">@color/theme_warm_night_primary_text</item>
+        <item name="colorError">@color/theme_warm_night_error</item>
+        <item name="colorControlNormal">@color/theme_warm_night_secondary_text</item>
+        <item name="colorControlActivated">@color/theme_warm_night_accent</item>
+        <item name="android:colorBackground">@color/theme_warm_night_background</item>
+        <item name="android:textColorPrimary">@color/theme_warm_night_primary_text</item>
+        <item name="android:textColorSecondary">@color/theme_warm_night_secondary_text</item>
+        <item name="materialCardViewStyle">@style/Widget.MaterialFiles.CardView.warm_night</item>
+    </style>
+    <style name="Theme.MaterialFiles.warm_night.Black" />
+    <style name="Theme.MaterialFiles.Translucent.warm_night.Black" />
+    <style name="Theme.MaterialFiles.Immersive.warm_night.Black" />
+
+    <style name="Theme.MaterialFiles.muted_amber" parent="Theme.MaterialFiles">
+        <item name="colorPrimary">@color/theme_muted_amber_accent</item>
+        <item name="colorPrimaryVariant">@color/theme_muted_amber_accent2</item>
+        <item name="colorSecondary">@color/theme_muted_amber_accent2</item>
+        <item name="colorSurface">@color/theme_muted_amber_surface</item>
+        <item name="colorOnSurface">@color/theme_muted_amber_primary_text</item>
+        <item name="colorError">@color/theme_muted_amber_error</item>
+        <item name="colorControlNormal">@color/theme_muted_amber_secondary_text</item>
+        <item name="colorControlActivated">@color/theme_muted_amber_accent</item>
+        <item name="android:colorBackground">@color/theme_muted_amber_background</item>
+        <item name="android:textColorPrimary">@color/theme_muted_amber_primary_text</item>
+        <item name="android:textColorSecondary">@color/theme_muted_amber_secondary_text</item>
+        <item name="materialCardViewStyle">@style/Widget.MaterialFiles.CardView.muted_amber</item>
+    </style>
+    <style name="Theme.MaterialFiles.Translucent.muted_amber" parent="Theme.MaterialFiles.Translucent">
+        <item name="colorPrimary">@color/theme_muted_amber_accent</item>
+        <item name="colorPrimaryVariant">@color/theme_muted_amber_accent2</item>
+        <item name="colorSecondary">@color/theme_muted_amber_accent2</item>
+        <item name="colorSurface">@color/theme_muted_amber_surface</item>
+        <item name="colorOnSurface">@color/theme_muted_amber_primary_text</item>
+        <item name="colorError">@color/theme_muted_amber_error</item>
+        <item name="colorControlNormal">@color/theme_muted_amber_secondary_text</item>
+        <item name="colorControlActivated">@color/theme_muted_amber_accent</item>
+        <item name="android:colorBackground">@color/theme_muted_amber_background</item>
+        <item name="android:textColorPrimary">@color/theme_muted_amber_primary_text</item>
+        <item name="android:textColorSecondary">@color/theme_muted_amber_secondary_text</item>
+        <item name="materialCardViewStyle">@style/Widget.MaterialFiles.CardView.muted_amber</item>
+    </style>
+    <style name="Theme.MaterialFiles.Immersive.muted_amber" parent="Theme.MaterialFiles.Immersive">
+        <item name="colorPrimary">@color/theme_muted_amber_accent</item>
+        <item name="colorPrimaryVariant">@color/theme_muted_amber_accent2</item>
+        <item name="colorSecondary">@color/theme_muted_amber_accent2</item>
+        <item name="colorSurface">@color/theme_muted_amber_surface</item>
+        <item name="colorOnSurface">@color/theme_muted_amber_primary_text</item>
+        <item name="colorError">@color/theme_muted_amber_error</item>
+        <item name="colorControlNormal">@color/theme_muted_amber_secondary_text</item>
+        <item name="colorControlActivated">@color/theme_muted_amber_accent</item>
+        <item name="android:colorBackground">@color/theme_muted_amber_background</item>
+        <item name="android:textColorPrimary">@color/theme_muted_amber_primary_text</item>
+        <item name="android:textColorSecondary">@color/theme_muted_amber_secondary_text</item>
+        <item name="materialCardViewStyle">@style/Widget.MaterialFiles.CardView.muted_amber</item>
+    </style>
+    <style name="Theme.MaterialFiles.muted_amber.Black" />
+    <style name="Theme.MaterialFiles.Translucent.muted_amber.Black" />
+    <style name="Theme.MaterialFiles.Immersive.muted_amber.Black" />
+
+    <style name="Theme.MaterialFiles.dark_terracotta" parent="Theme.MaterialFiles">
+        <item name="colorPrimary">@color/theme_dark_terracotta_accent</item>
+        <item name="colorPrimaryVariant">@color/theme_dark_terracotta_accent2</item>
+        <item name="colorSecondary">@color/theme_dark_terracotta_accent2</item>
+        <item name="colorSurface">@color/theme_dark_terracotta_surface</item>
+        <item name="colorOnSurface">@color/theme_dark_terracotta_primary_text</item>
+        <item name="colorError">@color/theme_dark_terracotta_error</item>
+        <item name="colorControlNormal">@color/theme_dark_terracotta_secondary_text</item>
+        <item name="colorControlActivated">@color/theme_dark_terracotta_accent</item>
+        <item name="android:colorBackground">@color/theme_dark_terracotta_background</item>
+        <item name="android:textColorPrimary">@color/theme_dark_terracotta_primary_text</item>
+        <item name="android:textColorSecondary">@color/theme_dark_terracotta_secondary_text</item>
+        <item name="materialCardViewStyle">@style/Widget.MaterialFiles.CardView.dark_terracotta</item>
+    </style>
+    <style name="Theme.MaterialFiles.Translucent.dark_terracotta" parent="Theme.MaterialFiles.Translucent">
+        <item name="colorPrimary">@color/theme_dark_terracotta_accent</item>
+        <item name="colorPrimaryVariant">@color/theme_dark_terracotta_accent2</item>
+        <item name="colorSecondary">@color/theme_dark_terracotta_accent2</item>
+        <item name="colorSurface">@color/theme_dark_terracotta_surface</item>
+        <item name="colorOnSurface">@color/theme_dark_terracotta_primary_text</item>
+        <item name="colorError">@color/theme_dark_terracotta_error</item>
+        <item name="colorControlNormal">@color/theme_dark_terracotta_secondary_text</item>
+        <item name="colorControlActivated">@color/theme_dark_terracotta_accent</item>
+        <item name="android:colorBackground">@color/theme_dark_terracotta_background</item>
+        <item name="android:textColorPrimary">@color/theme_dark_terracotta_primary_text</item>
+        <item name="android:textColorSecondary">@color/theme_dark_terracotta_secondary_text</item>
+        <item name="materialCardViewStyle">@style/Widget.MaterialFiles.CardView.dark_terracotta</item>
+    </style>
+    <style name="Theme.MaterialFiles.Immersive.dark_terracotta" parent="Theme.MaterialFiles.Immersive">
+        <item name="colorPrimary">@color/theme_dark_terracotta_accent</item>
+        <item name="colorPrimaryVariant">@color/theme_dark_terracotta_accent2</item>
+        <item name="colorSecondary">@color/theme_dark_terracotta_accent2</item>
+        <item name="colorSurface">@color/theme_dark_terracotta_surface</item>
+        <item name="colorOnSurface">@color/theme_dark_terracotta_primary_text</item>
+        <item name="colorError">@color/theme_dark_terracotta_error</item>
+        <item name="colorControlNormal">@color/theme_dark_terracotta_secondary_text</item>
+        <item name="colorControlActivated">@color/theme_dark_terracotta_accent</item>
+        <item name="android:colorBackground">@color/theme_dark_terracotta_background</item>
+        <item name="android:textColorPrimary">@color/theme_dark_terracotta_primary_text</item>
+        <item name="android:textColorSecondary">@color/theme_dark_terracotta_secondary_text</item>
+        <item name="materialCardViewStyle">@style/Widget.MaterialFiles.CardView.dark_terracotta</item>
+    </style>
+    <style name="Theme.MaterialFiles.dark_terracotta.Black" />
+    <style name="Theme.MaterialFiles.Translucent.dark_terracotta.Black" />
+    <style name="Theme.MaterialFiles.Immersive.dark_terracotta.Black" />
+
+    <style name="Theme.MaterialFiles.soft_sepia" parent="Theme.MaterialFiles">
+        <item name="colorPrimary">@color/theme_soft_sepia_accent</item>
+        <item name="colorPrimaryVariant">@color/theme_soft_sepia_accent2</item>
+        <item name="colorSecondary">@color/theme_soft_sepia_accent2</item>
+        <item name="colorSurface">@color/theme_soft_sepia_surface</item>
+        <item name="colorOnSurface">@color/theme_soft_sepia_primary_text</item>
+        <item name="colorError">@color/theme_soft_sepia_error</item>
+        <item name="colorControlNormal">@color/theme_soft_sepia_secondary_text</item>
+        <item name="colorControlActivated">@color/theme_soft_sepia_accent</item>
+        <item name="android:colorBackground">@color/theme_soft_sepia_background</item>
+        <item name="android:textColorPrimary">@color/theme_soft_sepia_primary_text</item>
+        <item name="android:textColorSecondary">@color/theme_soft_sepia_secondary_text</item>
+        <item name="materialCardViewStyle">@style/Widget.MaterialFiles.CardView.soft_sepia</item>
+    </style>
+    <style name="Theme.MaterialFiles.Translucent.soft_sepia" parent="Theme.MaterialFiles.Translucent">
+        <item name="colorPrimary">@color/theme_soft_sepia_accent</item>
+        <item name="colorPrimaryVariant">@color/theme_soft_sepia_accent2</item>
+        <item name="colorSecondary">@color/theme_soft_sepia_accent2</item>
+        <item name="colorSurface">@color/theme_soft_sepia_surface</item>
+        <item name="colorOnSurface">@color/theme_soft_sepia_primary_text</item>
+        <item name="colorError">@color/theme_soft_sepia_error</item>
+        <item name="colorControlNormal">@color/theme_soft_sepia_secondary_text</item>
+        <item name="colorControlActivated">@color/theme_soft_sepia_accent</item>
+        <item name="android:colorBackground">@color/theme_soft_sepia_background</item>
+        <item name="android:textColorPrimary">@color/theme_soft_sepia_primary_text</item>
+        <item name="android:textColorSecondary">@color/theme_soft_sepia_secondary_text</item>
+        <item name="materialCardViewStyle">@style/Widget.MaterialFiles.CardView.soft_sepia</item>
+    </style>
+    <style name="Theme.MaterialFiles.Immersive.soft_sepia" parent="Theme.MaterialFiles.Immersive">
+        <item name="colorPrimary">@color/theme_soft_sepia_accent</item>
+        <item name="colorPrimaryVariant">@color/theme_soft_sepia_accent2</item>
+        <item name="colorSecondary">@color/theme_soft_sepia_accent2</item>
+        <item name="colorSurface">@color/theme_soft_sepia_surface</item>
+        <item name="colorOnSurface">@color/theme_soft_sepia_primary_text</item>
+        <item name="colorError">@color/theme_soft_sepia_error</item>
+        <item name="colorControlNormal">@color/theme_soft_sepia_secondary_text</item>
+        <item name="colorControlActivated">@color/theme_soft_sepia_accent</item>
+        <item name="android:colorBackground">@color/theme_soft_sepia_background</item>
+        <item name="android:textColorPrimary">@color/theme_soft_sepia_primary_text</item>
+        <item name="android:textColorSecondary">@color/theme_soft_sepia_secondary_text</item>
+        <item name="materialCardViewStyle">@style/Widget.MaterialFiles.CardView.soft_sepia</item>
+    </style>
+    <style name="Theme.MaterialFiles.soft_sepia.Black" />
+    <style name="Theme.MaterialFiles.Translucent.soft_sepia.Black" />
+    <style name="Theme.MaterialFiles.Immersive.soft_sepia.Black" />
+
+    <style name="Theme.MaterialFiles.soft_daylight" parent="Theme.MaterialFiles">
+        <item name="colorPrimary">@color/theme_soft_daylight_accent</item>
+        <item name="colorPrimaryVariant">@color/theme_soft_daylight_accent2</item>
+        <item name="colorSecondary">@color/theme_soft_daylight_accent2</item>
+        <item name="colorSurface">@color/theme_soft_daylight_surface</item>
+        <item name="colorOnSurface">@color/theme_soft_daylight_primary_text</item>
+        <item name="colorError">@color/theme_soft_daylight_error</item>
+        <item name="colorControlNormal">@color/theme_soft_daylight_secondary_text</item>
+        <item name="colorControlActivated">@color/theme_soft_daylight_accent</item>
+        <item name="android:colorBackground">@color/theme_soft_daylight_background</item>
+        <item name="android:textColorPrimary">@color/theme_soft_daylight_primary_text</item>
+        <item name="android:textColorSecondary">@color/theme_soft_daylight_secondary_text</item>
+        <item name="materialCardViewStyle">@style/Widget.MaterialFiles.CardView.soft_daylight</item>
+    </style>
+    <style name="Theme.MaterialFiles.Translucent.soft_daylight" parent="Theme.MaterialFiles.Translucent">
+        <item name="colorPrimary">@color/theme_soft_daylight_accent</item>
+        <item name="colorPrimaryVariant">@color/theme_soft_daylight_accent2</item>
+        <item name="colorSecondary">@color/theme_soft_daylight_accent2</item>
+        <item name="colorSurface">@color/theme_soft_daylight_surface</item>
+        <item name="colorOnSurface">@color/theme_soft_daylight_primary_text</item>
+        <item name="colorError">@color/theme_soft_daylight_error</item>
+        <item name="colorControlNormal">@color/theme_soft_daylight_secondary_text</item>
+        <item name="colorControlActivated">@color/theme_soft_daylight_accent</item>
+        <item name="android:colorBackground">@color/theme_soft_daylight_background</item>
+        <item name="android:textColorPrimary">@color/theme_soft_daylight_primary_text</item>
+        <item name="android:textColorSecondary">@color/theme_soft_daylight_secondary_text</item>
+        <item name="materialCardViewStyle">@style/Widget.MaterialFiles.CardView.soft_daylight</item>
+    </style>
+    <style name="Theme.MaterialFiles.Immersive.soft_daylight" parent="Theme.MaterialFiles.Immersive">
+        <item name="colorPrimary">@color/theme_soft_daylight_accent</item>
+        <item name="colorPrimaryVariant">@color/theme_soft_daylight_accent2</item>
+        <item name="colorSecondary">@color/theme_soft_daylight_accent2</item>
+        <item name="colorSurface">@color/theme_soft_daylight_surface</item>
+        <item name="colorOnSurface">@color/theme_soft_daylight_primary_text</item>
+        <item name="colorError">@color/theme_soft_daylight_error</item>
+        <item name="colorControlNormal">@color/theme_soft_daylight_secondary_text</item>
+        <item name="colorControlActivated">@color/theme_soft_daylight_accent</item>
+        <item name="android:colorBackground">@color/theme_soft_daylight_background</item>
+        <item name="android:textColorPrimary">@color/theme_soft_daylight_primary_text</item>
+        <item name="android:textColorSecondary">@color/theme_soft_daylight_secondary_text</item>
+        <item name="materialCardViewStyle">@style/Widget.MaterialFiles.CardView.soft_daylight</item>
+    </style>
+    <style name="Theme.MaterialFiles.soft_daylight.Black" />
+    <style name="Theme.MaterialFiles.Translucent.soft_daylight.Black" />
+    <style name="Theme.MaterialFiles.Immersive.soft_daylight.Black" />
+
+    <style name="Theme.MaterialFiles.amoled_minimal" parent="Theme.MaterialFiles">
+        <item name="colorPrimary">@color/theme_amoled_minimal_accent</item>
+        <item name="colorPrimaryVariant">@color/theme_amoled_minimal_accent2</item>
+        <item name="colorSecondary">@color/theme_amoled_minimal_accent2</item>
+        <item name="colorSurface">@color/theme_amoled_minimal_surface</item>
+        <item name="colorOnSurface">@color/theme_amoled_minimal_primary_text</item>
+        <item name="colorError">@color/theme_amoled_minimal_error</item>
+        <item name="colorControlNormal">@color/theme_amoled_minimal_secondary_text</item>
+        <item name="colorControlActivated">@color/theme_amoled_minimal_accent</item>
+        <item name="android:colorBackground">@color/theme_amoled_minimal_background</item>
+        <item name="android:textColorPrimary">@color/theme_amoled_minimal_primary_text</item>
+        <item name="android:textColorSecondary">@color/theme_amoled_minimal_secondary_text</item>
+        <item name="materialCardViewStyle">@style/Widget.MaterialFiles.CardView.amoled_minimal</item>
+    </style>
+    <style name="Theme.MaterialFiles.Translucent.amoled_minimal" parent="Theme.MaterialFiles.Translucent">
+        <item name="colorPrimary">@color/theme_amoled_minimal_accent</item>
+        <item name="colorPrimaryVariant">@color/theme_amoled_minimal_accent2</item>
+        <item name="colorSecondary">@color/theme_amoled_minimal_accent2</item>
+        <item name="colorSurface">@color/theme_amoled_minimal_surface</item>
+        <item name="colorOnSurface">@color/theme_amoled_minimal_primary_text</item>
+        <item name="colorError">@color/theme_amoled_minimal_error</item>
+        <item name="colorControlNormal">@color/theme_amoled_minimal_secondary_text</item>
+        <item name="colorControlActivated">@color/theme_amoled_minimal_accent</item>
+        <item name="android:colorBackground">@color/theme_amoled_minimal_background</item>
+        <item name="android:textColorPrimary">@color/theme_amoled_minimal_primary_text</item>
+        <item name="android:textColorSecondary">@color/theme_amoled_minimal_secondary_text</item>
+        <item name="materialCardViewStyle">@style/Widget.MaterialFiles.CardView.amoled_minimal</item>
+    </style>
+    <style name="Theme.MaterialFiles.Immersive.amoled_minimal" parent="Theme.MaterialFiles.Immersive">
+        <item name="colorPrimary">@color/theme_amoled_minimal_accent</item>
+        <item name="colorPrimaryVariant">@color/theme_amoled_minimal_accent2</item>
+        <item name="colorSecondary">@color/theme_amoled_minimal_accent2</item>
+        <item name="colorSurface">@color/theme_amoled_minimal_surface</item>
+        <item name="colorOnSurface">@color/theme_amoled_minimal_primary_text</item>
+        <item name="colorError">@color/theme_amoled_minimal_error</item>
+        <item name="colorControlNormal">@color/theme_amoled_minimal_secondary_text</item>
+        <item name="colorControlActivated">@color/theme_amoled_minimal_accent</item>
+        <item name="android:colorBackground">@color/theme_amoled_minimal_background</item>
+        <item name="android:textColorPrimary">@color/theme_amoled_minimal_primary_text</item>
+        <item name="android:textColorSecondary">@color/theme_amoled_minimal_secondary_text</item>
+        <item name="materialCardViewStyle">@style/Widget.MaterialFiles.CardView.amoled_minimal</item>
+    </style>
+    <style name="Theme.MaterialFiles.amoled_minimal.Black" />
+    <style name="Theme.MaterialFiles.Translucent.amoled_minimal.Black" />
+    <style name="Theme.MaterialFiles.Immersive.amoled_minimal.Black" />
+</resources>
