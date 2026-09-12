@@ -36,7 +36,7 @@ jobs:
         run: chmod +x ./gradlew
 
       - name: Run lint and build debug APK
-        run: ./gradlew lintVitalRelease assembleDebug --stacktrace
+        run: ./gradlew lintDebug assembleDebug --stacktrace
 
       - name: Verify APK
         run: |
