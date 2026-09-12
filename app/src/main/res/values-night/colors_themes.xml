@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="theme_deep_neutral_dark_background">#121212</color>
+    <color name="theme_deep_neutral_dark_surface">#1A1A1A</color>
+    <color name="theme_deep_neutral_dark_card">#242424</color>
+    <color name="theme_deep_neutral_dark_primary_text">#D6D2CC</color>
+    <color name="theme_deep_neutral_dark_secondary_text">#AAA59E</color>
+    <color name="theme_deep_neutral_dark_divider">#383838</color>
+    <color name="theme_deep_neutral_dark_accent">#C47752</color>
+    <color name="theme_deep_neutral_dark_accent2">#C89455</color>
+    <color name="theme_deep_neutral_dark_success">#78956F</color>
+    <color name="theme_deep_neutral_dark_warning">#C89455</color>
+    <color name="theme_deep_neutral_dark_error">#B85F5F</color>
+    <color name="theme_deep_neutral_dark_on_accent">#201A16</color>
+    <color name="theme_deep_neutral_dark_on_accent2">#201A16</color>
+
+    <color name="theme_warm_night_background">#151313</color>
+    <color name="theme_warm_night_surface">#211C1A</color>
+    <color name="theme_warm_night_card">#2A2320</color>
+    <color name="theme_warm_night_primary_text">#DDD3C8</color>
+    <color name="theme_warm_night_secondary_text">#AFA39A</color>
+    <color name="theme_warm_night_divider">#403732</color>
+    <color name="theme_warm_night_accent">#C98258</color>
+    <color name="theme_warm_night_accent2">#B99863</color>
+    <color name="theme_warm_night_success">#7E9272</color>
+    <color name="theme_warm_night_warning">#C39A61</color>
+    <color name="theme_warm_night_error">#B96860</color>
+    <color name="theme_warm_night_on_accent">#201A16</color>
+    <color name="theme_warm_night_on_accent2">#201A16</color>
+
+    <color name="theme_muted_amber_background">#151515</color>
+    <color name="theme_muted_amber_surface">#20201E</color>
+    <color name="theme_muted_amber_card">#292824</color>
+    <color name="theme_muted_amber_primary_text">#DDD6C8</color>
+    <color name="theme_muted_amber_secondary_text">#AAA391</color>
+    <color name="theme_muted_amber_divider">#3A3935</color>
+    <color name="theme_muted_amber_accent">#B99A63</color>
+    <color name="theme_muted_amber_accent2">#987F52</color>
+    <color name="theme_muted_amber_success">#7F906E</color>
+    <color name="theme_muted_amber_warning">#B99A63</color>
+    <color name="theme_muted_amber_error">#AA6960</color>
+    <color name="theme_muted_amber_on_accent">#201A16</color>
+    <color name="theme_muted_amber_on_accent2">#201A16</color>
+
+    <color name="theme_dark_terracotta_background">#121212</color>
+    <color name="theme_dark_terracotta_surface">#1B1818</color>
+    <color name="theme_dark_terracotta_card">#252020</color>
+    <color name="theme_dark_terracotta_primary_text">#D8D0CA</color>
+    <color name="theme_dark_terracotta_secondary_text">#A9A09B</color>
+    <color name="theme_dark_terracotta_divider">#383030</color>
+    <color name="theme_dark_terracotta_accent">#B85F5F</color>
+    <color name="theme_dark_terracotta_accent2">#9C6860</color>
+    <color name="theme_dark_terracotta_success">#788F70</color>
+    <color name="theme_dark_terracotta_warning">#B69561</color>
+    <color name="theme_dark_terracotta_error">#B85F5F</color>
+    <color name="theme_dark_terracotta_on_accent">#201A16</color>
+    <color name="theme_dark_terracotta_on_accent2">#201A16</color>
+
+    <color name="theme_soft_sepia_background">#151313</color>
+    <color name="theme_soft_sepia_surface">#211C1A</color>
+    <color name="theme_soft_sepia_card">#2A2320</color>
+    <color name="theme_soft_sepia_primary_text">#DDD3C8</color>
+    <color name="theme_soft_sepia_secondary_text">#AFA39A</color>
+    <color name="theme_soft_sepia_divider">#403732</color>
+    <color name="theme_soft_sepia_accent">#96724F</color>
+    <color name="theme_soft_sepia_accent2">#A68561</color>
+    <color name="theme_soft_sepia_success">#687A5F</color>
+    <color name="theme_soft_sepia_warning">#9B7B4F</color>
+    <color name="theme_soft_sepia_error">#9B625A</color>
+    <color name="theme_soft_sepia_on_accent">#201A16</color>
+    <color name="theme_soft_sepia_on_accent2">#201A16</color>
+
+    <color name="theme_soft_daylight_background">#151515</color>
+    <color name="theme_soft_daylight_surface">#20201E</color>
+    <color name="theme_soft_daylight_card">#292824</color>
+    <color name="theme_soft_daylight_primary_text">#DDD6C8</color>
+    <color name="theme_soft_daylight_secondary_text">#AAA391</color>
+    <color name="theme_soft_daylight_divider">#3A3935</color>
+    <color name="theme_soft_daylight_accent">#8B6F55</color>
+    <color name="theme_soft_daylight_accent2">#8C795B</color>
+    <color name="theme_soft_daylight_success">#60765B</color>
+    <color name="theme_soft_daylight_warning">#987A4E</color>
+    <color name="theme_soft_daylight_error">#9C625A</color>
+    <color name="theme_soft_daylight_on_accent">#201A16</color>
+    <color name="theme_soft_daylight_on_accent2">#201A16</color>
+
+    <color name="theme_amoled_minimal_background">#000000</color>
+    <color name="theme_amoled_minimal_surface">#101010</color>
+    <color name="theme_amoled_minimal_card">#181818</color>
+    <color name="theme_amoled_minimal_primary_text">#D4D0CA</color>
+    <color name="theme_amoled_minimal_secondary_text">#99958F</color>
+    <color name="theme_amoled_minimal_divider">#2A2A2A</color>
+    <color name="theme_amoled_minimal_accent">#B87552</color>
+    <color name="theme_amoled_minimal_accent2">#A68A5D</color>
+    <color name="theme_amoled_minimal_success">#718469</color>
+    <color name="theme_amoled_minimal_warning">#A88A59</color>
+    <color name="theme_amoled_minimal_error">#A75F5F</color>
+    <color name="theme_amoled_minimal_on_accent">#201A16</color>
+    <color name="theme_amoled_minimal_on_accent2">#201A16</color>
+</resources>
